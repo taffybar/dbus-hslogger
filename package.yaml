@@ -1,0 +1,23 @@
+name:                dbus-hslogger
+version:             0.1.0.0
+github:              "IvanMalison/dbus-hslogger"
+license:             BSD3
+author:              "Ivan Malison"
+maintainer:          "IvanMalison@gmail.com"
+copyright:           "Ivan Malison"
+
+extra-source-files:
+- README.md
+
+synopsis:            Expose a dbus server to control hslogger
+category:            System
+
+description:         Please see the README on Github at <https://github.com/IvanMalison/dbus-hslogger#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- hslogger
+- dbus >= 1.0.1 && < 2
+
+library:
+  source-dirs: src
