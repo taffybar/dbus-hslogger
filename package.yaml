@@ -1,5 +1,5 @@
 name:                dbus-hslogger
-version:             0.1.0.0
+version:             0.1.0.1
 github:              "IvanMalison/dbus-hslogger"
 license:             BSD3
 author:              "Ivan Malison"

@@ -29,7 +29,7 @@ prefixP =
   )
 
 busNameP :: Parser BusName
-busNameP =
+busNameP = busName_ <$>
   strOption
   (  long "bus-name"
   <> short 'b'
