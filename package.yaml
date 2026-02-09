@@ -1,5 +1,5 @@
 name:                dbus-hslogger
-version:             0.1.0.1
+version:             0.1.1.0
 github:              "IvanMalison/dbus-hslogger"
 license:             BSD3
 author:              "Ivan Malison"
@@ -16,7 +16,8 @@ description:         Please see the README on Github at <https://github.com/Ivan
 
 dependencies:
 - base >= 4.7 && < 5
-- hslogger
+- containers >= 0.5 && < 1
+- hslogger >= 1.2 && < 2
 - dbus >= 1.0.1 && < 2
 
 library:
@@ -32,7 +33,6 @@ executables:
       - -with-rtsopts=-N
     dependencies:
       - base >= 4.7 && < 5
-      - dbus >=1.0.0 && <2.0.0
+      - dbus >= 1.0.0 && < 2
       - dbus-hslogger
-      - optparse-applicative
-
+      - optparse-applicative >= 0.14 && < 1
